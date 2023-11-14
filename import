@@ -5,7 +5,7 @@ number = random.randint(1, 102)
 print("Welcome to the 'Guess the Number' game!")
 print("I'm thinking of a number between 1 and 100. Try to guess it.")
 
-attempts = 0
+attempts = 1
 while True:
 guess = int(input("Enter your guess: "))
 attempts += 1
